@@ -1,0 +1,43 @@
+{
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:white_wool"]
+    }
+  ]
+  "result": {
+  "item": "minecraft:string",
+  "count": 2
+  }
+}
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:cobweb"
+    }
+  ]
+  "result": {
+    "item": "minecraft:string",
+    "count": 3
+  }
+}
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "# #",
+        " # ",
+        "# #"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:string"
+        }
+    },
+    "result": {
+        "item": "minecraft:cobweb",
+        "count": 1
+    }
+}
+}
